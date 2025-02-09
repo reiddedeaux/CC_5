@@ -33,5 +33,11 @@ let customer = {
  cartItems.shift();//get rid of the first item
 
  console.log("Updated Cart Items:", cartItems); //logging new cart items into the console
- 
+
+//Task 4 -Price Adjustments
+
+let prices =[100, 200, 300]; // array of values
+let discountedPrices = prices.map(price => price *.9); //applying the discount
+console.log("Discounted Prices:", discountedPrices); //logging the discount to the prices
+
 
