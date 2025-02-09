@@ -69,4 +69,11 @@ function calculateTax(amount, taxRate){
 } // create a tax function 
 calculateTax(1000, .06); 
 
+// Task 9 -Discount Application
 
+let applyDiscount = function(price, discount){
+    let discountedPrice = price -(price * discount);
+    console.log(`Discounted Price: $${discountedPrice}`);
+    return discountedPrice;
+}// create a function to get a discounted price
+applyDiscount(1000, .25);
