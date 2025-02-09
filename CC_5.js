@@ -52,4 +52,12 @@ console.log("Products Availible", availableProducts); // logging availble produc
 let sales = [500, 300, 200, 400]; // create an array with values
 let totalRevenue = sales.reduce((acc, sale) => acc + sale, 0); // adding all sales in array
 console.log("Total Revenue", totalRevenue); // logging total revenue into the console
- 
+  
+
+// Task 7 -Customer Search
+
+let customers = ["ALice", "Bob", "Charlie", "David"]; // Declare an array with customer names
+let locateCustomer = customer.find( name => name === "Charlie") ; //Finding charlie in the array
+console.log("Locate Customer", locateCustomer); //logging the customer into the array
+
+
