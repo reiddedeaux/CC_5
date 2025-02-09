@@ -40,4 +40,10 @@ let prices =[100, 200, 300]; // array of values
 let discountedPrices = prices.map(price => price *.9); //applying the discount
 console.log("Discounted Prices:", discountedPrices); //logging the discount to the prices
 
+// Task 5 - Product Avalibility
+
+let inventory = [5, 0, 12, 8, 0]; // an array for inventory
+
+let availableProducts = inventory.filter(quantity => quantity > 0) // Got rid of 0 in the array
+console.log("Products Availible", availableProducts); // logging availble products into the console
 
