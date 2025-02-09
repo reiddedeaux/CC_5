@@ -77,3 +77,13 @@ let applyDiscount = function(price, discount){
     return discountedPrice;
 }// create a function to get a discounted price
 applyDiscount(1000, .25);
+
+// Task 10 - Loyalty Points
+
+let calculatePoints = (purchaseAmount) => {
+    let points = Math.floor(purchaseAmount /10);
+    console.log("Loyalty Points:", points);
+    return points;
+}; // created a function to get the loyalty points from each purchase
+
+calculatePoints(1000); // an example
