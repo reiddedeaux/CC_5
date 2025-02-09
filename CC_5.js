@@ -23,4 +23,15 @@ let customer = {
  } ; // Logging the order details into the console
  order.displayOrder();
 
+ //Task 3 - Shopping Cart
+
+ let cartItems = ["Shoes", "Shirt", "Pants"]; // create an array of items
+
+ cartItems.push("Hat"); //Add new product to array
+ cartItems.pop(); // Get rid of last item
+ cartItems.unshift("Socks") //Add socks to the first part of the array
+ cartItems.shift();//get rid of the first item
+
+ console.log("Updated Cart Items:", cartItems); //logging new cart items into the console
  
+
