@@ -60,4 +60,13 @@ let customers = ["ALice", "Bob", "Charlie", "David"]; // Declare an array with c
 let locateCustomer = customer.find( name => name === "Charlie") ; //Finding charlie in the array
 console.log("Locate Customer", locateCustomer); //logging the customer into the array
 
+//Task 8 - Tax Calculation
+
+function calculateTax(amount, taxRate){
+    let tax = amount * taxRate;
+    console.log(`Tax: $${tax}`);
+    return tax;
+} // create a tax function 
+calculateTax(1000, .06); 
+
 
